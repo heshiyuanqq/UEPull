@@ -11,6 +11,7 @@ public class IndexController {
 
 	 	@RequestMapping("/index")
 	    public String welcomePage(HttpServletRequest request, String msg,ModelMap model){
+	 		System.out.println("uepull     /index*********************************");
 	 			return "index";
 	    }
 	
